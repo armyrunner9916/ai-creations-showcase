@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Recipes on My New Hugo Site</title>
+    <title>Recipes on AI Creations Showcase</title>
     <link>http://localhost:1313/recipes/</link>
-    <description>Recent content in Recipes on My New Hugo Site</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Recipes on AI Creations Showcase</description>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Mar 2025 15:22:58 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/recipes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>“Delicious slow cooker beef stew”</title>
+      <title>Delicious slow cooker beef stew recipe</title>
       <link>http://localhost:1313/recipes/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
       <guid>http://localhost:1313/recipes/example/</guid>
-      <description></description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Add liver&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Throw out the slow cooker&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Order pizza&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

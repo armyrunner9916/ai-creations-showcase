@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<!-- Debug: Show section context -->
+<p><strong>Section Context:</strong> {{ .Kind }}</p>
+
+<!-- Show _index.md content -->
+<p><strong>_index.md Content:</strong> {{ if .Content }} Found ✅ {{ else }} Missing ❌ {{ end }}</p>
+<p>{{ .Content }}</p>
+
+<!-- List section posts -->
+<h2>Posts in this Section:</h2>
+<ul>
+  {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ else }}
+    <li>No posts found in this section.</li>
+  {{ end }}
+</ul>
+
+{{ end }}

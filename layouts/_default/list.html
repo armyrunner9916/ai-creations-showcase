@@ -1,8 +1,16 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+
+<!-- Show _index.md content -->
+<p>{{ .Content }}</p>
+
+<h2>Posts in this Section:</h2>
 <ul>
-{{ range .Pages }}
+  {{ range .Pages }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-{{ end }}
+  {{ else }}
+    <li>No posts found in this section.</li>
+  {{ end }}
 </ul>
+
 {{ end }}

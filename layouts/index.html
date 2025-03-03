@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Site.Title }}</title>
-</head>
-<body>
+{{ define "main" }}
+<div style="text-align: center; margin-bottom: 40px;">
     <h1>Welcome to AI Creations Showcase</h1>
-    <p>Explore AI-generated content across different categories:</p>
+    <p>Explore AI-generated content across different categories.</p>
+</div>
 
-    <ul>
-        <li><a href="/prose/">Prose</a></li>
-        <li><a href="/poetry/">Poetry</a></li>
-        <li><a href="/coding/">Coding</a></li>
-        <li><a href="/social-media-scripts/">Social Media Scripts</a></li>
-        <li><a href="/images/">Images</a></li>
-        <li><a href="/recipes/">Recipes</a></li>
-        <li><a href="/agentic-tasks/">Agentic Tasks</a></li>
-        <li><a href="/deep-research/">Deep Research</a></li>
-    </ul>
-</body>
-</html>
+<h2>Categories</h2>
+<ul>
+  {{ range .Site.Sections }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

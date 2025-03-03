@@ -1,3 +1,13 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "AI Creations Showcase"
+theme = "PaperMod"
+
+[params]
+  homeInfoParams = { Title = "Welcome to My AI Showcase", Content = "This site features AI-generated prose, poetry, and more." }
+  defaultTheme = "auto"  # Enables light/dark mode toggle
+  ShowToc = false        # Hides the Table of Contents for simplicity 
+
+[cascade]
+  _build = { list = "page", single = "page", section = "page" }
+

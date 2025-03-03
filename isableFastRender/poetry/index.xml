@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Poetry on My New Hugo Site</title>
+    <link>http://localhost:1313/poetry/</link>
+    <description>Recent content in Poetry on My New Hugo Site</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Mar 2025 15:22:58 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/poetry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Romantic Poem For My Wife</title>
+      <link>http://localhost:1313/poetry/example/</link>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
+      <guid>http://localhost:1313/poetry/example/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Roses are red&lt;/em&gt;
+&lt;strong&gt;Violets are blue&lt;/strong&gt;
+&lt;em&gt;I really like my dick&lt;/em&gt;
+&lt;strong&gt;And I heard you do too&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,68 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>AI Creations Showcase</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
+    <description>Recent content on AI Creations Showcase</description>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Mar 2025 15:22:58 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example</title>
+      <title>A Romantic Poem For My Wife</title>
+      <link>http://localhost:1313/poetry/example/</link>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
+      <guid>http://localhost:1313/poetry/example/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Roses are red&lt;/em&gt;
+&lt;strong&gt;Violets are blue&lt;/strong&gt;
+&lt;em&gt;I really like my dick&lt;/em&gt;
+&lt;strong&gt;And I heard you do too&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep research on Evil Trump</title>
+      <link>http://localhost:1313/agentic-tasks/example/</link>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
+      <guid>http://localhost:1313/agentic-tasks/example/</guid>
+      <description>&lt;p&gt;Everyone knows Donald Drumpf is evil. We don&amp;rsquo;t need research to prove that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delicious slow cooker beef stew recipe</title>
+      <link>http://localhost:1313/recipes/example/</link>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
+      <guid>http://localhost:1313/recipes/example/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Add liver&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Throw out the slow cooker&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Order pizza&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Example Post</title>
       <link>http://localhost:1313/prose/example/</link>
       <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
       <guid>http://localhost:1313/prose/example/</guid>
-      <description></description>
+      <description>&lt;p&gt;This is a test to see if Hugo is detecting content.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Header:&lt;/strong&gt; Prose section here&lt;/p&gt;</description>
     </item>
     <item>
-      <title>“Deep “Research on Evil Trump</title>
-      <link>http://localhost:1313/agentic-tasks/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/agentic-tasks/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>“Delicious slow cooker beef stew”</title>
-      <link>http://localhost:1313/recipes/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>“Inspirational TikTok Post Description”</title>
+      <title>Inspirational TikTok Post Description</title>
       <link>http://localhost:1313/social-media-scripts/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
       <guid>http://localhost:1313/social-media-scripts/example/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;The harder you work, the tougher you get&lt;/strong&gt;  &lt;em&gt;Me&lt;/em&gt;, 2025&lt;/p&gt;</description>
     </item>
     <item>
-      <title>“Orange Man Bad”</title>
+      <title>Orange Man Bad</title>
       <link>http://localhost:1313/deep-research/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
       <guid>http://localhost:1313/deep-research/example/</guid>
-      <description></description>
+      <description>&lt;p&gt;Orange Man &lt;em&gt;very very&lt;/em&gt; bad. Everyone &lt;strong&gt;knows&lt;/strong&gt; this is true.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>“Pictures of Pretty Flowers”</title>
+      <title>Pictures of Pretty Flowers</title>
       <link>http://localhost:1313/images/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
       <guid>http://localhost:1313/images/example/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;em&gt;Insert scenic mountain pictures here&lt;/em&gt;
+&lt;strong&gt;Follow up with cool waterfall pictures&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>“Python Word Chunk Game”</title>
+      <title>Python Word Chunk Game</title>
       <link>http://localhost:1313/coding/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
       <guid>http://localhost:1313/coding/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>A Romantic Poem for My Wife</title>
-      <link>http://localhost:1313/poetry/example/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/poetry/example/</guid>
-      <description>&lt;p&gt;This is a romantic poem generated with AI.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I like word games, just like &lt;strong&gt;Mark&lt;/strong&gt; does!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

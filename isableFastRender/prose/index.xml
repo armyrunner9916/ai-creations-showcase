@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Prose on My New Hugo Site</title>
+    <link>http://localhost:1313/prose/</link>
+    <description>Recent content in Prose on My New Hugo Site</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Mar 2025 15:22:58 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/prose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Post</title>
+      <link>http://localhost:1313/prose/example/</link>
+      <pubDate>Sun, 02 Mar 2025 15:22:58 -0500</pubDate>
+      <guid>http://localhost:1313/prose/example/</guid>
+      <description>&lt;p&gt;This is a test to see if Hugo is detecting content.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Header:&lt;/strong&gt; Prose section here&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
