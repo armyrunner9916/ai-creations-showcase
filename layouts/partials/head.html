@@ -6,22 +6,22 @@
     
     <!-- Title & Meta Description -->
     <title>{{ .Site.Title }}</title>
-    <meta name="description" content="{{ .Site.Params.description | default "AI Creations Showcase - Featuring AI-generated prose, poetry, coding, and more." }}">
+    {{ if .Site.Params.description }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    {{ end }}
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
 
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="/css/custom.css?v=2">
-
-    <!-- Hugo Styles -->
-    {{ $style := resources.Get "css/main.css" | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css?v=2" | relURL }}">
 
     <!-- Open Graph & Twitter Card (For Social Sharing) -->
     <meta property="og:title" content="{{ .Site.Title }}">
+    {{ if .Site.Params.description }}
     <meta property="og:description" content="{{ .Site.Params.description }}">
-    <meta property="og:image" content="{{ "images/social-preview.jpg" | relURL }}">
+    {{ end }}
+    <meta property="og:image" content="{{ "images/social-preview.jpg" | absURL }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta name="twitter:card" content="summary_large_image">
     
