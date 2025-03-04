@@ -14,10 +14,31 @@ body {
 .cover::before, 
 .single-header::before, 
 .list-cover::before, 
-.archive-header::before {
+.archive-header::before, 
+.page-header::before, 
+.home-cover::before, 
+.article-header::before, 
+.archive-page-header::before, 
+.page-cover::before {
     content: none !important;
     background: none !important;
     display: none !important;
+    box-shadow: none !important;
+}
+
+/* 🚀 Ensure No Background Overlays Remain */
+.hero, 
+.cover, 
+.single-header, 
+.list-cover, 
+.archive-header, 
+.page-header, 
+.home-cover, 
+.article-header, 
+.archive-page-header, 
+.page-cover {
+    background: none !important;
+    box-shadow: none !important;
 }
 
 /* 🚀 Style Navigation Menu Items (Black Boxes, Yellow Text) */
