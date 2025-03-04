@@ -1,20 +1,75 @@
+/* ============================= */
+/* Custom Styles for ArmyRunner77 */
+/* ============================= */
+
+/* 🚀 Apply Background Image */
 body {
-    background: url('/images/brain-circuit-bg.jpg') no-repeat center center fixed !important;
+    background: url('/images/Brain-Circuit-BG.jpg') no-repeat center center fixed !important;
     background-size: cover !important;
     color: yellow; /* Default text color */
 }
 
-/* Black boxes for text */
-.text-box {
-    background: black;
-    color: yellow;
-    padding: 15px;
-    border-radius: 5px;
-    display: inline-block;
+/* 🚀 Completely Remove the Blue Triangle (SVG Path) */
+svg path {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
 }
 
-/* Ensure hyperlinks remain blue */
+/* 🚀 Hide Any SVG Elements in Headers or Layout */
+svg, 
+.site-header svg, 
+.single-header svg, 
+.archive-header svg, 
+.page-header svg, 
+.hero svg, 
+.cover svg, 
+.layout svg {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* 🚀 Remove Any Remaining Background Shapes */
+body, html, .hero, .cover, .single-header, .list-cover, 
+.archive-header, .page-header, .home-cover, .article-header, 
+.archive-page-header, .page-cover, .site-header, .header-cover, 
+.page-title, .layout-cover, .page-background {
+    background: none !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* 🚀 Style the Navigation Menu (Black Boxes with Yellow Text) */
+nav ul li a {
+    background-color: black !important;
+    color: yellow !important;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* 🚀 Keep Links Blue */
 a {
-    color: blue;
+    color: blue !important;
     text-decoration: underline;
+}
+
+/* 🚀 Ensure Links Change Color When Hovered */
+a:hover {
+    color: lightblue !important;
+}
+
+/* 🚀 Keep Navigation Links Blue When Hovered */
+nav ul li a:hover {
+    color: lightblue !important;
+}
+
+/* 🚀 Center the Navigation Menu */
+nav {
+    text-align: center;
+    padding: 10px 0;
 }
