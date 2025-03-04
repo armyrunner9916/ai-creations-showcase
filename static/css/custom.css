@@ -9,10 +9,15 @@ body {
     color: yellow; /* Default text color */
 }
 
-/* 🚀 Remove the Blue Triangle on All Pages */
-.hero::before, .cover::before {
+/* 🚀 Remove the Blue Triangle from ALL Pages */
+.hero::before, 
+.cover::before, 
+.single-header::before, 
+.list-cover::before, 
+.archive-header::before {
     content: none !important;
     background: none !important;
+    display: none !important;
 }
 
 /* 🚀 Style Navigation Menu Items (Black Boxes, Yellow Text) */
