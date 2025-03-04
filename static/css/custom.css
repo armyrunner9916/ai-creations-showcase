@@ -1,6 +1,8 @@
-/* Remove the blue triangle background */
-.hero::before {
+/* Remove the blue triangle from all pages */
+.hero::before, .cover::before {
     content: none !important;
+    background: none !important;
+}
 }
 
 /* Ensure the body has a clean background */
