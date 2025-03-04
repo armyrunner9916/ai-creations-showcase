@@ -1,20 +1,33 @@
+/* Remove the blue triangle background */
+.hero::before {
+    content: none !important;
+}
+
+/* Ensure the body has a clean background */
 body {
     background: url('/images/brain-circuit-bg.jpg') no-repeat center center fixed !important;
     background-size: cover !important;
-    color: yellow; /* Default text color */
 }
 
 /* Black boxes for text */
-.text-box {
-    background: black;
-    color: yellow;
-    padding: 15px;
+/* Style the top navigation menu */
+nav a {
+    background-color: black !important;
+    color: yellow !important;
+    padding: 10px 15px;
     border-radius: 5px;
+    text-decoration: none;
     display: inline-block;
+    margin: 5px;
 }
 
-/* Ensure hyperlinks remain blue */
-a {
-    color: blue;
-    text-decoration: underline;
+/* Keep links blue when hovered */
+nav a:hover {
+    color: lightblue !important;
+}
+
+/* Ensure the navigation bar looks structured */
+nav {
+    text-align: center;
+    padding: 10px 0;
 }
