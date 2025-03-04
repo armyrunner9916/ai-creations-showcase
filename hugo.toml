@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.armyrunner77.com/'
 languageCode = 'en-us'
-title = "AI Creations Showcase"
+title = "AI Creations Showcase Home"
 theme = "PaperMod"
 
 [params]
