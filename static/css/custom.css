@@ -3,10 +3,12 @@
 /* ============================= */
 
 /* 🚀 Apply Background Image */
-body {
+body, html {
     background: url('https://www.armyrunner77.com/images/brain-circuit-bg.jpg') no-repeat center center fixed !important;
     background-size: cover !important;
-    color: yellow !important; /* Default text color */
+    background-color: transparent !important;
+    z-index: -1 !important;
+    position: fixed !important;
 }
 
 /* 🚀 Fully Remove the Blue Triangle (SVG Path, Polygon, Rect, etc.) */
