@@ -1,19 +1,22 @@
-/* Remove the blue triangle from all pages */
+/* ============================= */
+/* Custom Styles for ArmyRunner77 */
+/* ============================= */
+
+/* 🚀 Apply Background Image */
+body {
+    background: url('/images/Brain-Circuit-BG.jpg') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: yellow; /* Default text color */
+}
+
+/* 🚀 Remove the Blue Triangle on All Pages */
 .hero::before, .cover::before {
     content: none !important;
     background: none !important;
 }
-}
 
-/* Ensure the body has a clean background */
-body {
-    background: url('/images/brain-circuit-bg.jpg') no-repeat center center fixed !important;
-    background-size: cover !important;
-}
-
-/* Black boxes for text */
-/* Style the top navigation menu */
-nav a {
+/* 🚀 Style Navigation Menu Items (Black Boxes, Yellow Text) */
+nav ul li a {
     background-color: black !important;
     color: yellow !important;
     padding: 10px 15px;
@@ -23,12 +26,23 @@ nav a {
     margin: 5px;
 }
 
-/* Keep links blue when hovered */
-nav a:hover {
+/* 🚀 Keep Hyperlinks Blue */
+a {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+/* 🚀 Ensure Links Change Color When Hovered */
+a:hover {
     color: lightblue !important;
 }
 
-/* Ensure the navigation bar looks structured */
+/* 🚀 Keep Navigation Links Blue When Hovered */
+nav ul li a:hover {
+    color: lightblue !important;
+}
+
+/* 🚀 Center the Navigation Menu */
 nav {
     text-align: center;
     padding: 10px 0;
