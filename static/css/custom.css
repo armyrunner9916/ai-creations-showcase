@@ -1,0 +1,85 @@
+/* ============================= */
+/* Custom Styles for ArmyRunner77 */
+/* ============================= */
+
+/* 🚀 Apply Background Image */
+body {
+    background: url('/images/brain-circuit-bg.jpg') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: yellow !important; /* Default text color */
+}
+
+/* 🚀 Fully Remove the Blue Triangle (SVG Path, Polygon, Rect, etc.) */
+svg path, 
+svg polygon, 
+svg rect, 
+svg line {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* 🚀 Hide Any Remaining SVG Elements */
+svg, 
+.site-header svg, 
+.single-header svg, 
+.archive-header svg, 
+.page-header svg, 
+.hero svg, 
+.cover svg, 
+.layout svg, 
+body svg {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* 🚀 Remove Any Remaining Background Shapes */
+body, html, .hero, .cover, .single-header, .list-cover, 
+.archive-header, .page-header, .home-cover, .article-header, 
+.archive-page-header, .page-cover, .site-header, .header-cover, 
+.page-title, .layout-cover, .page-background {
+    background: none !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* 🚀 Force Navigation Menu Items to Have Black Background */
+nav ul {
+    list-style: none !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+nav ul li {
+    display: inline-block !important;
+    margin: 5px !important;
+}
+
+/* 🚀 Override Any Other Theme Styling */
+nav ul li a, .menu li a {
+    background-color: black !important;
+    color: yellow !important;
+    padding: 10px 15px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-weight: bold !important;
+}
+
+/* 🚀 Keep Links Blue */
+a {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+
+/* 🚀 Ensure Links Change Color When Hovered */
+a:hover {
+    color: lightblue !important;
+}
+
+/* 🚀 Keep Navigation Links Blue When Hovered */
+nav ul li a:hover, .menu li a:hover {
+    color: lightblue !important;
+}
