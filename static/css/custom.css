@@ -1,0 +1,20 @@
+body {
+    background: url('/images/brain-circuit-bg.jpg') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: yellow; /* Default text color */
+}
+
+/* Black boxes for text */
+.text-box {
+    background: black;
+    color: yellow;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Ensure hyperlinks remain blue */
+a {
+    color: blue;
+    text-decoration: underline;
+}
