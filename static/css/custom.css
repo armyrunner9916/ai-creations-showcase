@@ -9,7 +9,7 @@ body {
     color: yellow; /* Default text color */
 }
 
-/* 🚀 Remove the Blue Triangle from ALL Pages */
+/* 🚀 Completely Remove the Blue Triangle & Background Overlays */
 .hero::before, 
 .cover::before, 
 .single-header::before, 
@@ -19,29 +19,43 @@ body {
 .home-cover::before, 
 .article-header::before, 
 .archive-page-header::before, 
-.page-cover::before {
+.page-cover::before, 
+.site-header::before, 
+.header-cover::before, 
+.page-title::before, 
+.layout-cover::before, 
+.page-background::before, 
+body::before, 
+body::after {
     content: none !important;
     background: none !important;
     display: none !important;
     box-shadow: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
 }
 
-/* 🚀 Ensure No Background Overlays Remain */
-.hero, 
-.cover, 
-.single-header, 
-.list-cover, 
-.archive-header, 
-.page-header, 
-.home-cover, 
-.article-header, 
-.archive-page-header, 
-.page-cover {
+/* 🚀 Hide Any Unwanted SVG Elements (Removes Blue Triangle SVG) */
+svg, .cover img, .site-header svg, .single-header svg, 
+.archive-header svg, .page-header svg, .home-cover svg, 
+.article-header svg, .archive-page-header svg, .page-cover svg {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* 🚀 Remove Any Remaining Background Layers */
+body, html, .hero, .cover, .single-header, .list-cover, 
+.archive-header, .page-header, .home-cover, .article-header, 
+.archive-page-header, .page-cover, .site-header, .header-cover, 
+.page-title, .layout-cover, .page-background {
     background: none !important;
     box-shadow: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
-/* 🚀 Style Navigation Menu Items (Black Boxes, Yellow Text) */
+/* 🚀 Style the Navigation Menu (Black Boxes with Yellow Text) */
 nav ul li a {
     background-color: black !important;
     color: yellow !important;
@@ -52,7 +66,7 @@ nav ul li a {
     margin: 5px;
 }
 
-/* 🚀 Keep Hyperlinks Blue */
+/* 🚀 Keep Links Blue */
 a {
     color: blue !important;
     text-decoration: underline;
