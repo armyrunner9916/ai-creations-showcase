@@ -9,14 +9,17 @@ body {
     color: yellow; /* Default text color */
 }
 
-/* 🚀 Completely Remove the Blue Triangle (SVG Path) */
-svg path {
+/* 🚀 Fully Remove the Blue Triangle (SVG Path, Polygon, Rect, etc.) */
+svg path, 
+svg polygon, 
+svg rect, 
+svg line {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
 }
 
-/* 🚀 Hide Any SVG Elements in Headers or Layout */
+/* 🚀 Hide Any Remaining SVG Elements */
 svg, 
 .site-header svg, 
 .single-header svg, 
@@ -24,7 +27,8 @@ svg,
 .page-header svg, 
 .hero svg, 
 .cover svg, 
-.layout svg {
+.layout svg, 
+body svg {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
@@ -42,20 +46,31 @@ body, html, .hero, .cover, .single-header, .list-cover,
 }
 
 /* 🚀 Style the Navigation Menu (Black Boxes with Yellow Text) */
+nav ul {
+    list-style: none !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+nav ul li {
+    display: inline-block !important;
+    margin: 5px !important;
+}
+
+/* 🚀 Force Black Background for Menu Links */
 nav ul li a {
     background-color: black !important;
     color: yellow !important;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px;
+    padding: 10px 15px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
 }
 
 /* 🚀 Keep Links Blue */
 a {
     color: blue !important;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 /* 🚀 Ensure Links Change Color When Hovered */
@@ -66,10 +81,4 @@ a:hover {
 /* 🚀 Keep Navigation Links Blue When Hovered */
 nav ul li a:hover {
     color: lightblue !important;
-}
-
-/* 🚀 Center the Navigation Menu */
-nav {
-    text-align: center;
-    padding: 10px 0;
 }
