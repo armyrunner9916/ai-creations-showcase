@@ -98,3 +98,15 @@ nav ul li a:hover, .menu li a:hover {
     color: lightblue !important;
     text-decoration: underline !important;
 }
+
+/* 🚀 FORCE `.black-box` TO APPLY */
+.black-box, div.black-box, section.black-box, p.black-box {
+    background-color: black !important; /* Black Background */
+    color: yellow !important; /* Yellow Text */
+    padding: 20px !important; /* Add Padding */
+    border-radius: 5px !important; /* Rounded Corners */
+    display: inline-block !important; /* Ensure It Displays */
+    width: fit-content !important;
+    max-width: 80% !important;
+    border: 2px solid red !important; /* 🔴 DEBUG: Adds a Red Border */
+}
