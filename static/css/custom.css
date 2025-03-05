@@ -83,7 +83,7 @@ nav ul li a:hover, .menu li a:hover {
     align-items: center !important; /* Center Vertically */
     text-align: center !important;
     max-width: 60% !important; /* Limit Width */
-    margin: 5vh auto !important; /* Move It Partway Down */
+    margin: 2vh auto !important; /* Move It Partway Down */
     border: 2px solid red !important; /* 🔴 DEBUG: Red Border */
 }
 
