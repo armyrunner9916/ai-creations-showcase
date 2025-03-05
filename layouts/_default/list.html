@@ -4,13 +4,16 @@
 <!-- Show _index.md content -->
 <p>{{ .Content }}</p>
 
-<h2>Posts in this Section:</h2>
-<ul>
-  {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-  {{ else }}
-    <li>No posts found in this section.</li>
-  {{ end }}
-</ul>
+<!-- 🚀 Wrap the section links in a black box with yellow text -->
+<div class="category-box">
+    <h2>Posts in this Section:</h2>
+    <ul>
+        {{ range .Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ else }}
+            <li>No posts found in this section.</li>
+        {{ end }}
+    </ul>
+</div>
 
 {{ end }}
