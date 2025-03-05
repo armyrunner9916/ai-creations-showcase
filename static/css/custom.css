@@ -80,9 +80,3 @@ a {
 nav ul li a:hover, .menu li a:hover {
     color: lightblue !important;
 }
-
-/* 🚀 Fix Any Theme Overrides on `body` */
-body {
-    background: none !important;
-    position: relative !important;
-}
