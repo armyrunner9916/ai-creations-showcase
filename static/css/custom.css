@@ -113,3 +113,10 @@ nav ul li a:hover, .menu li a:hover {
     font-size: 18px !important;
     margin-bottom: 10px !important;
 }
+
+/* 🚀 Fix Subtitle Placement Under Title */
+.subtitle {
+    display: block !important; /* Forces a Line Break */
+    font-size: 1.2em !important; /* Adjust Subtitle Size */
+    margin-top: 5px !important; /* Adds a Little Space */
+}
