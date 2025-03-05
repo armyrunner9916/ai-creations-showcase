@@ -1,12 +1,14 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
 
-<!-- Show _index.md content -->
-<p>{{ .Content }}</p>
+<!-- 🚀 Welcome Section with Black Box Styling -->
+<div class="black-box">
+    <h1>Welcome to AI Creations Showcase</h1>
+    <p>Explore AI-generated content across different categories.</p>
+</div>
 
-<!-- 🚀 Wrap the section links in a black box with yellow text -->
-<div class="category-box">
-    <h2>Posts in this Section:</h2>
+<!-- 🚀 Category Section Wrapped in a Black Box -->
+<div class="black-box">
+    <h2>Categories</h2>
     <ul>
         {{ range .Pages }}
             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
