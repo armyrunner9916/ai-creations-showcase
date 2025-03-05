@@ -76,7 +76,7 @@ nav ul li a:hover, .menu li a:hover {
 .intro-box {
     background-color: black !important;
     color: yellow !important;
-    padding: 20px !important;
+    padding: 10px !important;
     border-radius: 5px !important;
     display: flex !important;
     justify-content: center !important; /* Center Horizontally */
