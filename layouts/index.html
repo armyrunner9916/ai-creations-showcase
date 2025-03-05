@@ -1,24 +1,17 @@
 {{ define "main" }}
 
-<!-- 🚀 Debugging to ensure `.black-box` is applied -->
-<p style="color: red;">This is coming from index.html</p>
-
-<!-- 🚀 Black Box Test 1 -->
-<div class="black-box">
+<!-- 🚀 Introduction Section (Centered at the Top) -->
+<div class="intro-box">
     <h1>Welcome to AI Creations Showcase</h1>
     <p>Explore AI-generated content across different categories.</p>
-    <p style="color: cyan;">DEBUG: This is inside .black-box</p>
 </div>
 
-<!-- 🚀 Black Box Test 2 -->
-<div class="black-box">
+<!-- 🚀 Menu Section (Left Center) -->
+<div class="menu-box">
     <h2>Categories</h2>
-    <p style="color: cyan;">DEBUG: Another black-box test</p>
     <ul>
-        {{ range .Pages }}
+        {{ range .Site.Sections }}
             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ else }}
-            <li>No posts found in this section.</li>
         {{ end }}
     </ul>
 </div>
