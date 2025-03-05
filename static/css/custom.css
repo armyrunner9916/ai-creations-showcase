@@ -72,16 +72,18 @@ nav ul li a:hover, .menu li a:hover {
     color: lightblue !important;
 }
 
-* 🚀 Black Box Styling for Welcome & Category Sections */
-.black-box {
-    background-color: black !important;
-    color: yellow !important;
-    padding: 20px !important;
-    border-radius: 8px !important;
-    text-align: center !important;
-    max-width: 80% !important;
-    margin: 20px auto !important;
-    box-shadow: 5px 5px 15px rgba(255, 255, 0, 0.3) !important;
+/* 🚀 FORCE `.black-box` TO APPLY */
+.black-box, div.black-box, section.black-box, p.black-box {
+    background-color: black !important; /* Forces Black Background */
+    color: yellow !important; /* Forces Yellow Text */
+    padding: 20px !important; /* Adds Padding */
+    border-radius: 5px !important; /* Rounded Corners */
+    display: block !important; /* Ensures Block Display */
+    width: fit-content !important; /* Prevents It from Stretching */
+    max-width: 80% !important; /* Prevents It from Being Too Wide */
+    border: 2px solid red !important; /* DEBUG: Adds a Red Border */
+    position: relative !important;
+    z-index: 9999 !important;
 }
 
 /* 🚀 Ensure Links Inside Stay Blue */
