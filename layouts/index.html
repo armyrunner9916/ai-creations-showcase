@@ -3,14 +3,17 @@
 <!-- 🚀 Debugging to ensure `.black-box` is applied -->
 <p style="color: red;">This is coming from index.html</p>
 
-<!-- 🚀 Wrap Page Content in `.black-box` -->
+<!-- 🚀 Black Box Test 1 -->
 <div class="black-box">
     <h1>Welcome to AI Creations Showcase</h1>
     <p>Explore AI-generated content across different categories.</p>
+    <p style="color: cyan;">DEBUG: This is inside .black-box</p>
 </div>
 
+<!-- 🚀 Black Box Test 2 -->
 <div class="black-box">
     <h2>Categories</h2>
+    <p style="color: cyan;">DEBUG: Another black-box test</p>
     <ul>
         {{ range .Pages }}
             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
