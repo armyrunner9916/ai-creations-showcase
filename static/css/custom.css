@@ -36,17 +36,6 @@ svg path, svg polygon, svg rect, svg line {
     opacity: 0 !important;
 }
 
-/* 🚀 Remove Any Remaining Background Shapes */
-body, html, .hero, .cover, .single-header, .list-cover, 
-.archive-header, .page-header, .home-cover, .article-header, 
-.archive-page-header, .page-cover, .site-header, .header-cover, 
-.page-title, .layout-cover, .page-background {
-    background: none !important;
-    box-shadow: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-}
-
 /* 🚀 Force Navigation Menu Items to Have Black Background */
 nav ul {
     list-style: none !important;
