@@ -70,8 +70,8 @@ nav ul li a:hover, .menu li a:hover {
     color: lightblue !important;
 }
 
-/* 🚀 Style the Category Box */
-.category-box {
+* 🚀 Black Box Styling for Welcome & Category Sections */
+.black-box {
     background-color: black !important;
     color: yellow !important;
     padding: 20px !important;
@@ -79,18 +79,18 @@ nav ul li a:hover, .menu li a:hover {
     text-align: center !important;
     max-width: 80% !important;
     margin: 20px auto !important;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 5px 5px 15px rgba(255, 255, 0, 0.3) !important;
 }
 
-/* 🚀 Ensure Category Links Stay Blue */
-.category-box a {
+/* 🚀 Ensure Links Inside Stay Blue */
+.black-box a {
     color: blue !important;
     font-weight: bold !important;
     text-decoration: none !important;
 }
 
 /* 🚀 Ensure Links Change Color on Hover */
-.category-box a:hover {
+.black-box a:hover {
     color: lightblue !important;
     text-decoration: underline !important;
 }
