@@ -2,7 +2,7 @@
 /* 🌟 Custom Styles for ArmyRunner77 */
 /* =============================== */
 
-/* 🚀 Ensure Background Image is Applied */
+/* 🚀 Completely Override Background Removal */
 body, html, .hero, .cover, .single-header, .list-cover, 
 .archive-header, .page-header, .home-cover, .article-header, 
 .archive-page-header, .page-cover, .site-header, .header-cover, 
@@ -11,7 +11,10 @@ body, html, .hero, .cover, .single-header, .list-cover,
     background-size: cover !important;
     background-color: transparent !important;
     position: fixed !important;
-    z-index: -1 !important;
+    z-index: -9999 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
 }
 
 /* 🚀 Alternative Background Container (Backup Fix) */
