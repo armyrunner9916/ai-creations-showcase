@@ -1,15 +1,23 @@
+{{ define "main" }}
+
+<!-- 🚀 Debugging to ensure `.black-box` is applied -->
 <p style="color: red;">This is coming from index.html</p>
 
-{{ define "main" }}
-<div style="text-align: center; margin-bottom: 40px;">
+<!-- 🚀 Wrap Page Content in `.black-box` -->
+<div class="black-box">
     <h1>Welcome to AI Creations Showcase</h1>
     <p>Explore AI-generated content across different categories.</p>
 </div>
 
-<h2>Categories</h2>
-<ul>
-  {{ range .Site.Sections }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
+<div class="black-box">
+    <h2>Categories</h2>
+    <ul>
+        {{ range .Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ else }}
+            <li>No posts found in this section.</li>
+        {{ end }}
+    </ul>
+</div>
+
 {{ end }}
